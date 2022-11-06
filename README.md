@@ -1,6 +1,10 @@
 # first image should be provided
 
+
+```bash
 FROM node:latest
+
+
 
 # 2nd step is to copy the
 
@@ -23,7 +27,7 @@ RUN yarn install
 EXPOSE 8000
 
 CMD ["node","index"]
-
+```
 #### How to publish the docker container to docker hub ?
 
 ### Need to have account at docker hub
